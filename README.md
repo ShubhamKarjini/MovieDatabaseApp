@@ -202,11 +202,5 @@ Frontend updates via RxJS observables
 - Check email and password are correct
 - Verify JWT secret matches in backend
 
-## 📸 Screenshots
-See `SCREENSHOTS.md` for application screenshots and UI overview.
-
 ## 👨‍💻 Author
-[Your Name]
-
-## 📄 License
-MIT
+Shubham Karjini
