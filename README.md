@@ -1,7 +1,7 @@
 # Movie Database Application
 
 ## 📽️ Overview
-A full-stack movie database application built with Angular, Node.js, Express, and MongoDB. Users can view, search, filter, add and delete movies with JWT authentication.
+A full-stack movie database application built with Angular, Node.js, Express, and MongoDB. Users can view, search, filter, add, edit, and delete movies with JWT authentication.
 
 ## 🎯 Features
 - **User Authentication**: Register and login with JWT tokens
@@ -144,6 +144,7 @@ Returns JWT token - use for authenticated requests.
 
 ### 3. Movie Management
 - Add new movies (authenticated users only)
+- Edit existing movies
 - Delete movies
 - View movie details
 
@@ -201,5 +202,11 @@ Frontend updates via RxJS observables
 - Check email and password are correct
 - Verify JWT secret matches in backend
 
+## 📸 Screenshots
+See `SCREENSHOTS.md` for application screenshots and UI overview.
+
 ## 👨‍💻 Author
-Shubham Karjini
+[Your Name]
+
+## 📄 License
+MIT
