@@ -1,0 +1,55 @@
+.navbar {
+  background: linear-gradient(135deg, #e94560, #f39c12);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .nav-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      color: #fff;
+
+      .username {
+        font-weight: 600;
+      }
+
+      .logout-btn {
+        padding: 0.5rem 1rem;
+        background: rgba(255, 255, 255, 0.2);
+        border: 2px solid #fff;
+        border-radius: 6px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.3);
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
